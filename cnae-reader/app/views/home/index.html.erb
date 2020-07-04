@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CNAE READER</title>
+  
+<div class="div-header">
+  <h1>CNAE READER®</h1>
+  <p class="p-info">Este é um serviço para leitura dos dados contigos no cnae.</p></div>
+</div>
+
+
+</head>
+<body class="page-style">
+
+
+<div class="div-cnae">
+<%= form_with(url: {action: :upload}, multipart: true) do %>
+  <%= file_field_tag 'archive' %>
+<% end %>
+</div>
+
+
+<TABLE id="demo-table">
+<CAPTION>Dados</CAPTION>
+
+<THEAD>
+<TR>
+<TH>Tipo</TH>
+<TH>Data</TH>
+<TH>Valor</TH>
+<TH>CPF</TH>
+<TH>Cartão</TH>
+<TH>Dono da loja</TH>
+<TH>Nome da Loja</TH>
+</TR>
+
+
+<TBODY>
+<TR>
+<TH>Ártico</TH>
+<TD>13,000</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+</TR>
+<TR>
+<TH>Atlântico</TH>
+<TD>87,000</TD>
+<TD>3,900</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+</TR>
+<TR>
+<TH>Pacífico</TH>
+<TD>180,000</TD>
+<TD>4,000</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+</TR>
+<TR>
+<TH>Índico</TH>
+<TD>75,000</TD>
+<TD>3,900</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+</TR>
+<TR>
+<TH>Antártico</TH>
+<TD>20,000</TD>
+<TD>4,500</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+<TD>1,200</TD>
+</TR>
+</TBODY>
+
+<TFOOT>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+<TR>
+<TD>Total</TD>
+<TD></TD>
+<TD>72,000</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TFOOT>
+
+</TABLE>
+   
+</BODY>
+</HTML>
+</body>
+</html>

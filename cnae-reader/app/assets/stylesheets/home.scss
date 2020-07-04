@@ -1,0 +1,99 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.page-style {
+  background-color: darken($color: #f5ecec, $amount: 0);
+}
+
+.div-header {
+  font: 100% sans-serif;
+  margin-left: 480px;
+}
+
+.div-cnae {
+  font: 100% sans-serif;
+  margin-top: 6%;
+  margin-left: 480px;
+}
+
+.p-info {
+  margin-left: -60px;
+}
+
+#demo-table {
+  margin-top: 35px;
+  margin-left: 20%;
+  font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+}
+
+#demo-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: 0.2em solid #4ca;
+  margin-bottom: 0.5em;
+}
+
+/* basic shared rules */
+#demo-table th,
+#demo-table td {
+  text-align: center;
+  padding-right: 0.5em;
+}
+
+#demo-table th {
+  font-weight: bold;
+  padding-left: 0.5em;
+}
+
+/* header */
+#demo-table > thead > tr:first-child > th {
+  text-align: center;
+  color: blue;
+}
+
+#demo-table > thead > tr + tr > th {
+  font-style: italic;
+  color: gray;
+}
+
+/* fix size of superscript */
+#demo-table sup {
+  font-size: 75%;
+}
+
+/* body */
+#demo-table td {
+  background-color: #cef;
+  padding: 0.5em 0.5em 0.5em 3em;
+}
+
+#demo-table tbody th:after {
+  content: ":";
+}
+
+/* footer */
+#demo-table tfoot {
+  font-weight: bold;
+}
+
+#demo-table tfoot th {
+  color: blue;
+}
+
+#demo-table tfoot th:after {
+  content: ":";
+}
+
+#demo-table > tfoot td {
+  background-color: #cee;
+}
+
+#demo-table > tfoot > tr:first-child td {
+  border-top: 0.2em solid #7a7;
+}
