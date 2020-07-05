@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   
   root to: "home#index"
 
-  get '/upload/', to: 'home#upload'
+  post '/upload', to: 'home#upload'
 
 end

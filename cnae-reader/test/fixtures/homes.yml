@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  data: 2020-07-04
+  valor: 1.5
+  cpf: MyString
+  cartao: MyString
+  hora: 2020-07-04 20:11:55
+  dono: MyString
+  loja: MyString
+  transaction: one
+
+two:
+  data: 2020-07-04
+  valor: 1.5
+  cpf: MyString
+  cartao: MyString
+  hora: 2020-07-04 20:11:55
+  dono: MyString
+  loja: MyString
+  transaction: two

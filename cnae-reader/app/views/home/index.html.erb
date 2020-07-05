@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CNAE READER</title>
+  <title>CNAB READER</title>
   
 <div class="div-header">
-  <h1>CNAE READER®</h1>
+  <h1>CNAB READER®</h1>
   <p class="p-info">Este é um serviço para leitura dos dados contigos no cnae.</p></div>
 </div>
 
@@ -14,8 +14,9 @@
 
 
 <div class="div-cnae">
-<%= form_with(url: {action: :upload}, multipart: true) do %>
+<%= form_with(url: {action: :upload}, multipart: true) do |f| %>
   <%= file_field_tag 'archive' %>
+  <span><%= f.submit "Create" , id: 'send-cnab'  %></span>
 <% end %>
 </div>
 
@@ -24,85 +25,53 @@
 <CAPTION>Dados</CAPTION>
 
 <THEAD>
-<TR>
-<TH>Tipo</TH>
-<TH>Data</TH>
-<TH>Valor</TH>
-<TH>CPF</TH>
-<TH>Cartão</TH>
-<TH>Dono da loja</TH>
-<TH>Nome da Loja</TH>
-</TR>
+  <TR>
+    <TH>#</TH>
+    <TH>Tipo</TH>
+    <TH>Data</TH>
+    <TH>Valor</TH>
+    <TH>CPF</TH>
+    <TH>Cartão</TH>
+    <TH>Dono da loja</TH>
+    <TH>Nome da Loja</TH> 
+  </TR>
 
 
-<TBODY>
-<TR>
-<TH>Ártico</TH>
-<TD>13,000</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-</TR>
-<TR>
-<TH>Atlântico</TH>
-<TD>87,000</TD>
-<TD>3,900</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-</TR>
-<TR>
-<TH>Pacífico</TH>
-<TD>180,000</TD>
-<TD>4,000</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-</TR>
-<TR>
-<TH>Índico</TH>
-<TD>75,000</TD>
-<TD>3,900</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-</TR>
-<TR>
-<TH>Antártico</TH>
-<TD>20,000</TD>
-<TD>4,500</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-<TD>1,200</TD>
-</TR>
-</TBODY>
+  <TBODY>
+  <% @dados.each do |dado| %>
+    <TR>
+    <TH><%= dado.id %></TH>
+      <TD><%= dado.tipo %></TD>
+      <TD><%= dado.data %></TD>
+      <TD><%= dado.valor %></TD>
+      <TD><%= dado.cpf %></TD>
+      <TD><%= dado.cartao %></TD>
+      <TD><%= dado.dono %></TD>
+      <TD><%= dado.loja %></TD>
+    </TR>
+  <% end %>
+  </TBODY>
 
-<TFOOT>
-<TR>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-</TR>
-<TR>
-<TD>Total</TD>
-<TD></TD>
-<TD>72,000</TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-<TD></TD>
-</TR>
-</TFOOT>
+  <!-- <TFOOT>
+    <TR>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>Total</TD>
+      <TD></TD>
+      <TD>72,000</TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+  </TFOOT> -->
 
 </TABLE>
    
