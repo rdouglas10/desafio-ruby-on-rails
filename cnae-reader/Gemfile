@@ -53,7 +53,7 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   # RSpec is a library (gem) that facilitates testing of applications
-  gem "rspec-rails", "~> 3.1.0"
+  gem 'rspec-rails', '~> 3.1.0'
   # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
   gem 'simplecov', require: false
 end

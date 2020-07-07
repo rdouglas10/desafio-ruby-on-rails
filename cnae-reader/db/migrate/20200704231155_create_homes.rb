@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 class CreateHomes < ActiveRecord::Migration[6.0]
   def change
     create_table :homes do |t|
-      t.integer :tipo
+      t.string  :tipo
+      t.string  :sinal
       t.string  :data
       t.float   :valor
       t.string  :cpf

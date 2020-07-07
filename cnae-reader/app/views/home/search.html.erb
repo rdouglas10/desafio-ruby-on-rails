@@ -11,21 +11,7 @@
 </head>
 <body class="page-style">
 
-<div class="div-cnae">
-<%= form_with(url: {action: :upload}, multipart: true, id:'form-cnab') do |f| %>
-  <%= file_field_tag 'archive' %>
-  <span><%= f.submit "Create" , id:'send-cnab'  %></span>
-<% end %>
-</div>
 
-<div class="dropdown">
-  <button class="dropbtn">Escolha a loja</button>
-  <div class="dropdown-content">
-  <% @stores.each do |f| %>
-    <a href="/search/<%= f.loja %>" target="_blank"><%= f.loja %></a>
-  <% end %>
-  </div>
-</div>
 
 <TABLE id="demo-table">
 
@@ -75,7 +61,7 @@
     <TH>Total</TH>
       <TD></TD>
       <TD></TD>
-      <TD><%= @geral_sum %></TD>
+      <TD><%= @geral_sum.round(2) %></TD>
       <TD></TD>
       <TD></TD>
       <TD></TD>

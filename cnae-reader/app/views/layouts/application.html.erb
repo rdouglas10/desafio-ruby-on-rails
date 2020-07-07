@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CnaeReader</title>
+    <title>Cnab Reader</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +11,7 @@
 
   <body>
     <%= yield %>
+
+    <%= javascript_pack_tag 'custom' %>
   </body>
 </html>

@@ -35,7 +35,55 @@
         "branches": {
         }
       },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/controllers/home_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/helpers/home_helper.rb": {
         "lines": [
           null,
           null,
@@ -82,8 +130,83 @@
         ],
         "branches": {
         }
+      },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/models/home.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/models/transaction.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/services/application_service.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/randersondouglas/Projects/desafio-ruby-on-rails/cnae-reader/app/services/home_service.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1593827901
+    "timestamp": 1594141856
   }
 }
