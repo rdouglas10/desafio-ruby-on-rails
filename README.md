@@ -5,12 +5,12 @@ Link de acesso ao projeto hospedado no heroku: https://tranquil-badlands-43500.h
 Link do repositório github: https://github.com/rdouglas10/desafio-ruby-on-rails
 
 # Implementação
-* Foi implementada uma atividade que tem por finalidade, receber um arquivo.txt (CNAE) que contém as informações 
-referente as operações realizadas por alguns logistas, e normalizar as informações de acordo com o respectivo tipo de cada informação.
+* Foi implementada uma atividade que tem por finalidade, receber um arquivo.txt (CNAE) que contém informações 
+referente as operações realizadas por alguns logistas, e assim, normalizar as informações de acordo com seus respectivos tipos.
 Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/ByCodersTec/desafio-ruby-on-rails/blob/master/CNAB.txt) especificado no link.
-* Após o envio do arquivo, é feita aleitura dos dados, a normalização e inserção no banco de dados.
+* Após o envio do arquivo, é feita a leitura dos dados contidos no .txt, seguido da normalização e inserção no banco de dados.
 * Os usuários podem visualizar suas informações (extrato), que são exibidos por meio de uma listagem, que são exibidas assim que o arquivo é carregado.
-* As informações podem ser filtradas por loja, para que seja possível obter valores seus respectivos totalizadores.
+* As informações podem serem filtradas por loja, para que seja possível obter os seus respectivos valores e totalizadores.
 
 # Versões utilizadas
 * Ruby 2.5
@@ -41,8 +41,10 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 | Hora  | varchar 
 | Dono  | varchar
 | Loja  | varchar
-| created_at  | timestamp
-| update_at   | timestamp
+| Created_at  | timestamp
+| Update_at   | timestamp
+
+
 
 **Table Transactions**
 
@@ -53,10 +55,12 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 | Descricao | varchar 
 | Natureza  | varchar  
 | Sinal     | float 
-| created_at  | timestamp
-| update_at   | timestamp
+| Created_at  | timestamp
+| Update_at   | timestamp
+
 
 # Para instalação
+
 1 - Faça o clone desta aplicação (clicando to botão acima);
 
 2 - Certifique-se que as versões que está utilizando estão compativéis com o especificado anteriormente.
