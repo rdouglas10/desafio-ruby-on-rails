@@ -56,7 +56,7 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 | created_at  | timestamp
 | update_at   | timestamp
 
-# Para instação
+# Para instalação
 1 - Faça o clone desta aplicação (clicando to botão acima);
 
 2 - Certifique-se que as versões que está utilizando estão compativéis com o especificado anteriormente.
