@@ -1,0 +1,18 @@
+ ^
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (1, 1, 'Débito', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (2, 2, 'Boleto', 'SAIDA', '-', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (3, 3, 'Financiamento', 'SAIDA', '-', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (4, 4, 'Crédito', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (5, 5, 'Recebimento Empréstimo', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (6, 6, 'Vendas', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (7, 7, 'Recebimento TED', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (8, 8, 'Recebimento DOC', 'ENTRADA', '+', '2020-07-08 00:42', '2020-07-08 00:42');
+
+INSERT INTO transactions  ("id", "tipo", "descricao", "natureza", "sinal", "created_at", "updated_at") VALUES (9, 9, 'Aluguel', 'SAIDA', '-', '2020-07-08 00:42', '2020-07-08 00:42');
