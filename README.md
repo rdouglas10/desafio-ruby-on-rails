@@ -65,12 +65,14 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 
 2 - Certifique-se que as versões que está utilizando estão compatíveis com o especificado anteriormente.
 
-3 - Execute o comando rails db:migrate para que as migrations sejam executadas.
+3 - Configure o arquivo database.yml com as informações necessárias.
 
-4 - Após essa ação, com a criação da base de dados, copie os dados contidos no arquivo "/db/script/inserts-transactions.txt" localizados na raiz da aplicação,
+4 - Execute o comando rails db:migrate para que as migrations sejam executadas.
+
+5 - Após essa ação, com a criação da base de dados, copie os dados contidos no arquivo "/db/script/inserts-transactions.txt" localizados na raiz da aplicação,
 e execute-os para que a tabela transactions (criada através das migrations) seja populada com os dados referência para a normalização.
 
-5 - Tendo feito isso, basta somente executara a aplicação: rails server.
+6 - Tendo feito isso, basta somente executara a aplicação: rails server.
 
 
 
