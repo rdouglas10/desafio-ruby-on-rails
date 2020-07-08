@@ -63,7 +63,7 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 
 1 - Faça o clone desta aplicação (clicando to botão acima);
 
-2 - Certifique-se que as versões que está utilizando estão compativéis com o especificado anteriormente.
+2 - Certifique-se que as versões que está utilizando estão compatíveis com o especificado anteriormente.
 
 3 - Execute o comando rails db:migrate para que as migrations sejam executadas.
 
