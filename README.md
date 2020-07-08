@@ -30,7 +30,7 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 
 
 | Campos  | Tipos 
-| -------------
+| ------------- | --------
 |   id  | Inicio 
 | Tipo  | varchar 
 | Sinal | varchar 
@@ -44,10 +44,10 @@ Para tal foi utilizado como padrão o arquivo [arquivo CNAB](https://github.com/
 | created_at  | timestamp
 | update_at   | timestamp
 
-**Table Trasactions**
+**Table Transactions**
 
 | Campos  | Tipos 
-| ------------- 
+| ------------- | -------- 
 | Id        | varchar
 | Tipo      | varchar
 | Descricao | varchar 
@@ -69,4 +69,5 @@ e execute-os para que a tabela transactions (criada através das migrations) sej
 5 - Tendo feito isso, basta somente executara a aplicação: rails server.
 
 
-that's all folks!
+
+**That's all folks!**
